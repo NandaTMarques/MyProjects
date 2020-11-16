@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(253, 251, 251);
+    color: rgb(97, 95, 95);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px;
+}
+#cabecalho {
+    background-color: rgb(0, 2, 2);
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    border: 5px;
+}
+.nav-links {
+    padding: 5px 0;
+    background-color: black;
+    height: 15px;
+    width: auto;
+    bottom: 15x;
+}
+.nav-links ul {
+    padding: 10px 10px 15px 10px;
+    text-align: left;
+    background-color: orange;
+    height: 15px;
+    width: auto;
+}
+.nav-links li{
+    margin-right: 40px;
+    color: rgb(247, 248, 247);
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 55px;
+}
+.class-content{
+    color: grey;
+}
+#minha_foto {
+    padding: 180px 20px 20px 20px;
+    object-position: center;
+}
+#titulo {
+    text-decoration: underline;
+}
+#licoes_aprendidas {
+    line-height: 23px;
+}
+#licoes_a_aprender {
+    line-height: 23px;
+}
+.lado-esquerdo {
+    width: 30%;
+    text-align: justify;
+    display: inline-block;
+    margin-left: 400px;
+}
+.lado-esquerdo h2 {
+    text-align: center;
+}
+.lado-direito {
+    width: 30%;
+    text-align: justify;
+    display: inline-block;
+}
+.lado-direito h2 {
+    text-align: center;
+}
+.lado-direito {
+    float: right;
+    margin-right: 50px;
+}
+#rodape {
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 150px;
+}
+div {
+    display:inline-flex;
+}
+.licoesprendidasesquerda {
+    padding:250px 20px 20px 80px;
+}
+.licoesprenderdireita {
+    padding:250px 20px 20px 100px;
+}
+table {
+    border-collapse: collapse;
+    border:3px solid rgb(100, 130, 40);
+    width: 25%;
+    line-height: 23px;
+}
+tbody {
+    font-size: 90%;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+td {
+    text-align: center;
+    border: 1px solid rgb(100, 130, 40);
+}

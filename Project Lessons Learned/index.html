@@ -9,22 +9,19 @@
         <header id='cabecalho'>
             <h1 id='titulo'>Lições Aprendidas - Trybe!</h1>
             <nav class='nav-links'>
-                <ul>
-                    <li>Sobre a mim</li>
-                    <li><a href='https://www.betrybe.com/' target='_blank'>Sobre a Trybe</a></li>
-                    <li><a href="https://www.linkedin.com/in/fernanda-teixeira-marques32/"
-                    target="_blank">Linkedin</a></li>
-                </ul>
+                <div >Sobre a mim</div>
+                <div><a href='https://www.betrybe.com/' target='_blank'>Sobre a Trybe</a></div>
+                <div><a href="https://www.linkedin.com/in/fernanda-teixeira-marques32/"
+                target="_blank">Linkedin</a></div>
             </nav>
         </header>
         <main class='class-content'>
-            <div>
-                <section>
+            <div class="containers">
+                <section class="flex-containers">
                     <img id='minha_foto' src='Fer.jpg'
                     alt="Self da Fernanda com o cabelo solto e sorrindo" width="300px">
                 </section>
-
-                <section class="licoesprendidasesquerda">
+                <section class="licoesprendidasesquerda flex-containers"f>
                     <h2>Lições Aprendidas</h2>
                     <ol id="licoes_aprendidas">
                         <li>Unix & Bash</li>
@@ -40,7 +37,7 @@
                     </ol>
                 </section>
 
-                <section class="licoesprenderdireita">
+                <section class="licoesprenderdireita flex-containers">
                     <h2>Lições a Aprender</h3>
                     <ul id="licoes_a_aprender">
                         <li>JavaScript</li>
@@ -56,48 +53,56 @@
                     </ul>
                 </section>
             </div>
-
-            <table>
-                <thead>
-                    <th colspan="2">Módulos</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Módulo 1</td>
-                        <td>Concluído</td>
-                    </tr>
-                    <tr>
-                        <td>Módulo 2</td>
-                        <td>Concluído</td>
-                    </tr>
-                    <tr>
-                        <td>Módulo 3</td>
-                        <td>Concluído</td>
-                    </tr>
-                    <tr>
-                        <td>Módulo 4</td>
-                        <td>Concluído</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <article class='lado-esquerdo'>
-                <h2>O prendizado</h2>
-                <p>Eu considero o meu prendizado até agora na Trybe como uma grande lição. 
-                    Eu não imaginava que eu iria ser capaz de aprender tanto em tão pouco tempo 
-                    pois eu não tinha experiência na àrea, não sabia quase nada de programação
-                    e hoje já estou até criando esta página. Eu estou muito feliz em ter conhecido 
-                    a Trybe, ter feito o processo seletivo, ter sido aprovada e estar estudando.
-                    <br>Estou orgulhosa de mim.</p>
-            </article>
-
-            <aside class="lado-direito">
-                <h2>O que já aprendi</h2>
-                <p>Em menos de um mês já prendi HTML, CSS, usar o terminal, aprendi Git e já consigo usar 
-                o GitHub, isso me deixa muito empolgada.</p>
-            </aside>
+            <div class="containers-two">
+                <article class='lado-esquerdo flex-containers-two'>
+                    <h2>O prendizado</h2>
+                    <p>Eu considero o meu prendizado até agora na Trybe como uma grande lição. 
+                        Eu não imaginava que eu iria ser capaz de aprender tanto em tão pouco tempo 
+                        pois eu não tinha experiência na àrea, não sabia quase nada de programação
+                        e hoje já estou até criando esta página. Eu estou muito feliz em ter conhecido 
+                        a Trybe, ter feito o processo seletivo, ter sido aprovada e estar estudando.
+                        <br>Estou orgulhosa de mim.</p>
+                </article>
+                <aside class="lado-direito flex-containers-two">
+                    <h2>O que já aprendi</h2>
+                    <p>Em menos de um mês já prendi HTML, CSS, usar o terminal, aprendi Git e já consigo usar 
+                    o GitHub, isso me deixa muito empolgada.</p>
+                </aside>
+            </div>
+            <div class="containers-three">
+                <table id='tabel' class="table-containers-three">
+                    <thead>
+                        <th colspan="2">Módulos</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Módulo 1</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Módulo 2</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Módulo 3</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Módulo 4</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Módulo 5</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Módulo 6</td>
+                            <td>Concluindo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>  
         </main>
-        
         <footer id="rodape">
            <p>Todos os direitos reservados, Fernanda Teixeira Marques</p>
            <p>

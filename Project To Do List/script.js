@@ -60,9 +60,3 @@ botaoApagaSelecionada.addEventListener('click', function () {
     }
 });
 
-//tenho tirar o selected e apagar só ele
-/*if (elemento.classList.contains('selected')) {
-    event.target.classList.remove('selected');
-  } else {
-    elemento.classList.add("selected");
-  }*/

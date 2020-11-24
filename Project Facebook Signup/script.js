@@ -29,11 +29,11 @@ buttonListener();
 function confereInput () {
   for (let index = 0; index < allInput.length; index += 1){
     if (allInput[index].value === ''){
-      document.getElementById('invalido').innerHTML = 'Campos inválidos'; 
-    }else {
-      mostrarCadastro();
+      document.getElementById('invalido').innerHTML = 'Campos inválidos';
+      return;
     }
   }
+  mostrarCadastro();
 }
 
 const idPersonalizado = document.getElementById('personalizado');

@@ -56,6 +56,11 @@ form input {
   width: 100%;
 }
 
+#label-birthdate {
+  width: 80%;
+  margin-right: 5px;
+}
+
 #button-login {
   background-color: rgb(66, 103, 178);
   border: 1px solid black;
@@ -68,6 +73,8 @@ form input {
 .form-control {
   display: flex;
   align-self: flex-end;
+  padding-bottom: 23px;
+  padding-left: 5px;
 }
 
 .main-content {
@@ -131,6 +138,7 @@ form input {
   justify-content: center;
   width: 12px;
 }
+
 .inputGeder {             /*ver*/
   display: none;
 }
@@ -144,7 +152,10 @@ form input {
 .inputRadio {
   color: rgb(59, 58, 58);
   width: 12px;
-
+}
+.buttomIntOne {
+  display: flex;
+  flex-direction: row;
 }
 
 .cinza {
